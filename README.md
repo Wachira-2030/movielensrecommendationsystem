@@ -48,18 +48,22 @@ On evaluation, our datasets meets all of the following requirements for preproce
 
 # 6.Exploratory Data Analysis
 ## a)Univariate Analysis
-This graph shows the number of movies per genre
-![download](images/download.png)
+This graph shows the number of movies per genre.
 
-The graph below shos the count of a given rating and four(4) is where most movies are rated
-![download (1)](images/download (1).png)
+![genre-count](Images/genre-count.png)
 
-Below is a distribution plot of the movies produced across the years with a peak being around the 1990s
-[download (1)](images/download (1).png)
+The graph below shos the count of a given rating and four(4) is where most movies are rated.
+
+![Rating-count](Images/Rating-count.png)
+
+Below is a distribution plot of the movies produced across the years with a peak being around the 1990s.
+
+![distribution](Images/distribution.png)
 
 ## b)Bivariate Analysis
 This graph shows the movie ratings across the years.From the previous insight we could conclude that the rating is low in earlier years as a result of few produced movies during the same time.
-[download (3)](images/download (3).png)
+
+![years-rating](Images/years-rating.png)
 
 # 7.Modelling
 
