@@ -9,7 +9,7 @@ To build a model that provides top 5 movie recommendations to a user, based on t
 
 ## c) Defining the metric of success:
 Having a model that has a low RMSE and a high recall score.
-## d) Objectives
+## 2. Objectives
 ### Main objective
 The main objective is to provide a valuable resource (Recommender system) for users to be able to enjoy a range of suggested similar movies based on product similarity or user similarity.
 
