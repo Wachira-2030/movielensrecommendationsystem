@@ -1,5 +1,6 @@
 # Movielens Recommendation System
-![Background](Images/Background.png)
+![Background](https://user-images.githubusercontent.com/117269915/225745802-f7441d4c-f786-49d7-a7bb-9094ab3d1994.png)
+
 
 # 1.Business Understanding
 ## a)Analytical question
