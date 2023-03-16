@@ -41,12 +41,13 @@ On evaluation, our datasets meets all of the following requirements for preproce
 4.Accuracy-Based on the individual features representation,despite splitting the the genre column later on,the data is all accurate
 
 # 4.External Data-source Validation
-
+GroupLens, a resaerch lab at the University of Minnesota made available thee MovieLens dataset. The dataset has been used in various academic publications and competitions, which further validates its credibility. GroupLens is a reputable source for research in the field of recommendation system.    
 
 # 5.Data Preprocessing
-
+The data was individually checked for null values and for duplicates in the data. The datatypes of each of their columns was checked. Different tables were merged and their contents also checked for null values and for duplicates. Columns that were not important were dropped like the timestamp column. 
 
 # 6.Exploratory Data Analysis
+EDA showed interesting insights about our dataset MovieLens. we discovered that the most number of ratings from plotting a countplot for count of ratings, were rated four out of five. We also observed that the distribution of the release year was at peak from the 1990s through 2000s. Additionally, we found out that the overall ratings of movies produced in the earlier was lower, we found out about this by plotting a correlation of the release year and ratings.
 ## a)Univariate Analysis
 This graph shows the number of movies per genre.
 
@@ -68,5 +69,15 @@ This graph shows the movie ratings across the years.From the previous insight we
 # 7.Modelling
 
 # 8.Conclusions
+We have successfully built a movie recommender system using collaborative filtering that provides personalized movie recommendations to users. Our model has a low RMSE score and high recall score, indicating that it provides accurate and relevant recommendations to users. The MovieLens dataset provided a good foundation for building a movie recommender system.
+1. Drama genre has the highest count with 41928 while Film Noir has the least with 870.
+2. The analysis showed that most movies in the dataset received high ratings, with over 50% of movies rated between 4 and 5 stars.
+3. Additionally, the majority of ratings were made between 1990 to 2000. The top three genres were drama, comedy, and action. Interestingly, the average rating of    movies watched by fewer people was higher than those watched by more people.
+4. The analysis showed a positive correlation between the number of ratings and the average rating of movies. These findings could be useful to movie studios and streaming services to understand the trends and preferences of movie viewers and make informed decisions on which movies to produce and distribute.
 
 # 9.Recommendations
+We recommend the following to improve the movie recommender system:
+1.	Include user demographics and movie metadata to provide even more personalized recommendations to users.
+2.	Implement A/B testing to validate the effectiveness of the model and to ensure that it provides the desired impact on user satisfaction, engagement, and retention.
+3.	Continuously update and improve the model to ensure that it stays relevant and up-to-date with users' changing preferences.
+4.	Collaborate with other movie streaming platforms to increase the dataset size and diversity, which can enhance the model's performance and accuracy.
