@@ -65,9 +65,10 @@ Below is a distribution plot of the movies produced across the years with a peak
 
 
 ## b)Bivariate Analysis
-This graph shows the movie ratings across the years.From the previous insight we could conclude that the rating is low in earlier years as a result of few produced movies during the same time.
+This graph shows the movie ratings across the years.The years were binned into bins of 10 years. From the previous insight we could conclude that the rating is low in earlier years as a result of less movies being produced during the same time.Also the 1990-2000 show an increace in the number of ratings.
 
-![yearRating](https://user-images.githubusercontent.com/117269915/225695980-452a3c7e-315d-40bc-8105-f0ed062efba8.png)
+![RatingYearBin](https://user-images.githubusercontent.com/117269915/225706100-9125dccb-bbb2-4ce5-b873-2ddc16c15429.png)
+
 
 
 # 7.Modelling
@@ -76,7 +77,15 @@ With the assumption that some users that will use this system will be new , a mo
 *  If no information is provided, the user was recommended the popular movies which have been rated at least 150 times.
 *  If the user presents a threshold, say, top 10, then the user gets the top 10 movies with highest ratings.
 *  If the user presents a genre, then the user is recommended top-rated movies from that genre.
-## b.
+## b. The Collaborative Filtering Model
+The collaborative filtering system leverages a user's watching history and the ratings they gave to those movies. 
+It then recommends 5 movies they are most likely to want to watch
+## c. The Hybrid model 
+Finally, we combined the popularity-based model with the collaborative filtering model to get a hybrid that utilizes the functionality of both models. 
+New users will get a recommendation of the top 5 popular movies, while an old user will get a list of 5 films they will most likely watch. 
+## Model Selection
+
+
 
 
 # 8.Conclusions
