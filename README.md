@@ -1,4 +1,5 @@
 # Movielens Recommendation System
+![Background](Images/Background.png)
 
 # 1.Business Understanding
 ## a)Analytical question
@@ -9,7 +10,8 @@ To build a model that provides top 5 movie recommendations to a user, based on t
 
 ## c) Defining the metric of success:
 Having a model that has a low RMSE and a high recall score.
-## 2. Objectives
+
+# 2. Objectives
 ### Main objective
 The main objective is to provide a valuable resource (Recommender system) for users to be able to enjoy a range of suggested similar movies based on product similarity or user similarity.
 
@@ -77,15 +79,14 @@ With the assumption that some users that will use this system will be new , a mo
 *  If no information is provided, the user was recommended the popular movies which have been rated at least 150 times.
 *  If the user presents a threshold, say, top 10, then the user gets the top 10 movies with highest ratings.
 *  If the user presents a genre, then the user is recommended top-rated movies from that genre.
+
 ## b. The Collaborative Filtering Model
 The collaborative filtering system leverages a user's watching history and the ratings they gave to those movies. 
 It then recommends 5 movies they are most likely to want to watch
+
 ## c. The Hybrid model 
 Finally, we combined the popularity-based model with the collaborative filtering model to get a hybrid that utilizes the functionality of both models. 
 New users will get a recommendation of the top 5 popular movies, while an old user will get a list of 5 films they will most likely watch. 
-## Model Selection
-
-
 
 
 # 8.Conclusions
