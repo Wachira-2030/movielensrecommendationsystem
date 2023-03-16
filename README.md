@@ -51,22 +51,33 @@ EDA showed interesting insights about our dataset MovieLens. we discovered that 
 ## a)Univariate Analysis
 This graph shows the number of movies per genre.
 
-![genre-count](Images/genre-count.png)
+![1stImage](https://user-images.githubusercontent.com/117269915/225694368-da46d6f6-f685-4adf-81aa-e3ffa9877ed7.png)
 
 The graph below shos the count of a given rating and four(4) is where most movies are rated.
 
-![Rating-count](Images/Rating-count.png)
+![CountRating](https://user-images.githubusercontent.com/117269915/225694944-ef845bf8-4dab-4a90-8b92-6875d5f250a4.png)
+
+
 
 Below is a distribution plot of the movies produced across the years with a peak being around the 1990s.
 
-![distribution](Images/distribution.png)
+![CountYear](https://user-images.githubusercontent.com/117269915/225695466-423037c3-5a84-4acb-a4fd-ab3400da47b2.png)
+
 
 ## b)Bivariate Analysis
 This graph shows the movie ratings across the years.From the previous insight we could conclude that the rating is low in earlier years as a result of few produced movies during the same time.
 
-![years-rating](Images/years-rating.png)
+![yearRating](https://user-images.githubusercontent.com/117269915/225695980-452a3c7e-315d-40bc-8105-f0ed062efba8.png)
+
 
 # 7.Modelling
+## a. The popularity based baseline model 
+With the assumption that some users that will use this system will be new , a model had to be created to accommodate users with no preference information.
+*  If no information is provided, the user was recommended the popular movies which have been rated at least 150 times.
+*  If the user presents a threshold, say, top 10, then the user gets the top 10 movies with highest ratings.
+*  If the user presents a genre, then the user is recommended top-rated movies from that genre.
+## b.
+
 
 # 8.Conclusions
 We have successfully built a movie recommender system using collaborative filtering that provides personalized movie recommendations to users. Our model has a low RMSE score and high recall score, indicating that it provides accurate and relevant recommendations to users. The MovieLens dataset provided a good foundation for building a movie recommender system.
