@@ -101,3 +101,10 @@ We recommend the following to improve the movie recommender system:
 2.	Implement A/B testing to validate the effectiveness of the model and to ensure that it provides the desired impact on user satisfaction, engagement, and retention.
 3.	Continuously update and improve the model to ensure that it stays relevant and up-to-date with users' changing preferences.
 4.	Collaborate with other movie streaming platforms to increase the dataset size and diversity, which can enhance the model's performance and accuracy.
+
+
+## Repository Guide
+- The data sets used can be found [here](https://github.com/Wachira-2030/movielensrecommendationsystem/tree/main/ml-latest-small).
+- The data report can be found [here](https://docs.google.com/document/d/17GTTIwxJwvvad-XYlMtivgzQ1xGVgjGWRdCbyxI92xw/edit?usp=sharing).
+- The notebook can be found [here](https://github.com/Wachira-2030/movielensrecommendationsystem/blob/main/Movie%20reccomendation%20Final%20(2).ipynb)
+- The non-technical presentation can be found [here](https://www.canva.com/design/DAFdVOptMSs/BLI4Mc2ox80388bpzGCf2w/view?utm_content=DAFdVOptMSs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#12)
